@@ -1,4 +1,3 @@
-
 import os
 from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
@@ -38,7 +37,7 @@ def upload_file():
     <!doctype html>
     <title>PDF directory</title>
     <h1>Available PDFs:</h1>
-    <h4> {use PHP to execute python script to print names of files in directory 'uploads'}</h4>
+    <h4>{use PHP to execute python script to print names of files in directory 'uploads'}</h4>
     <h4> 
     </h4>
     <h1>Upload new PDF</h1>
